@@ -1,3 +1,3 @@
-import { getAllBranches } from './src/stale-branches/stale-branches';
+import { BranchInfoUtil } from './src/stale-branches/stale-branches';
 
-module.exports = { getAllBranches };
+module.exports = { BranchInfoUtil };
