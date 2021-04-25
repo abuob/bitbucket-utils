@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "description": "A collection of utility scripts for bitbucket-server",
     "main": "dist/index.js",
+    "files": [
+        "dist/**/*"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/abuob/bitbucket-utils.git"
