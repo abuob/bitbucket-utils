@@ -7,7 +7,7 @@ export const prDataTypeGuard = z
     .object({
         id: z.number(),
         title: z.string(),
-        state: z.union([z.literal('OPEN'), z.literal('MERGED'), z.literal('DECLINED ')]),
+        state: z.union([z.literal('OPEN'), z.literal('MERGED'), z.literal('DECLINED')]),
         open: z.boolean(),
         closed: z.boolean(),
         createdDate: z.number(),
